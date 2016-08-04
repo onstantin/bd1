@@ -1,0 +1,33 @@
+﻿table { 
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 10px 0;
+}
+
+table td, table th {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 12px;
+	font-family: arial;
+}
+
+table th {
+	background: #efefef;
+}
+
+h1 {
+	font-size: 16px;
+	font-family: arial;		
+}
+
+a {
+	font-size: 13px;
+	font-family: arial;
+	text-decoration: none;
+	border-bottom: 1px solid #505050;
+	color: #505050;
+}
+
+a:hover {
+	border-bottom: none;
+}
