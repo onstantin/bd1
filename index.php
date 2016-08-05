@@ -11,7 +11,7 @@
 	error_reporting(E_ALL);
 	
 	$pdo = new PDO("mysql:host=localhost;dbname=global","babushkin","neto0410");
-	$pdo->exec("set names utf-8");
+	$pdo->exec("set names utf8");
 	
 	if (!empty($_GET)) 
 	{
