@@ -18,7 +18,9 @@
 		$isbn = htmlspecialchars($_GET['isbn']);
 		$name = htmlspecialchars($_GET['name']);
 		$author = htmlspecialchars($_GET['author']);		
-		$sql = "SELECT * FROM books WHERE name LIKE '%$name%' AND isbn LIKE '%$isbn%' AND author LIKE '%$author%'";
+		$sql = <<<SQL
+SELECT * FROM books WHERE name LIKE "%$name%" AND isbn LIKE "%$isbn%" AND author LIKE "%$author%"
+SQL;
 	}
 	else
 	{
